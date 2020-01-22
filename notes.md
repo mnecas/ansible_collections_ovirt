@@ -1,0 +1,3 @@
+- update LICENCE
+- all roles cant use - but _ or .
+- repository is required

@@ -1,6 +1,6 @@
 namespace: "mnecas"
 name: "ovirt"
-version: 0.0.2
+version: 0.0.3
 authors:
     - Martin Necas <mnecas@redhat.com>
 license:
@@ -9,5 +9,6 @@ tags:
     - demo
     - collection
 readme: README.md
+repository: https://github.com/mnecas/ansible_collections_ovirt
 description: The oVirt ansible collections.
 homepage: https://www.ovirt.org/
