@@ -7,7 +7,6 @@ RPM_RELEASE="1"
 COLLECTION_NAME="ovirt"
 COLLECTION_NAMESPACE="mnecas"
 
-
 PACKAGE_NAME="ovirt-ansible-collections"
 PREFIX=/usr/local
 DATAROOT_DIR=$PREFIX/share

@@ -23,13 +23,10 @@ This Ansible role provide funtionality to create virtual machine infrastructure.
 %build
 
 %install
-echo 'Something may be wrong! 1' > /dev/stderr
 export PKG_DATA_DIR_ORIG=%{_datadir}/%{ansible_collections_dir}/%{namespace}/%{collectionname}
 export PKG_DATA_DIR=%{buildroot}$PKG_DATA_DIR_ORIG
 export PKG_DOC_DIR=%{buildroot}%{_pkgdocdir}
-echo 'Something may be wrong! 2' > /dev/stderr
 sh build.sh install
-echo 'Something may be wrong! 3' > /dev/stderr
 
 %files
 %{_datadir}/%{ansible_collections_dir}/%{namespace}/%{collectionname}
