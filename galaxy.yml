@@ -1,6 +1,6 @@
 namespace: "mnecas"
 name: "ovirt"
-version: 0.0.3
+version: 0.0.4
 authors:
     - Martin Necas <mnecas@redhat.com>
 license:
